@@ -1,0 +1,86 @@
+body{
+    background-color: #4c4a48;
+}
+.h-primary{
+    font-size: 2.5rem;
+    font-family: cursive;
+    background-color: rgb(22, 21, 21); 
+    position: relative;
+    top: 0px;
+    padding:  0px;
+    margin: 0px;
+    color: rgb(219, 228, 228);
+
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 12px;
+}
+.text-center{
+    text-align:center;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#services{
+    margin:15px;
+    display:flex;
+    height: 600px;
+    
+    
+}
+/* #services::before{
+    content: "";
+    background:url(logo3.jpg) no-repeat center center/cover;
+    position:absolute;
+    height:100%;
+    width: 100%;
+    z-index: -1;
+    
+
+    left: 0px;
+
+} */
+#services .box button{
+    background-color: #fcf9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 5px;
+
+} 
+#services{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 1rem;
+}
+#services .box{ 
+    border: 4px solid rgb(32, 30, 30);
+    padding: 20px;
+    margin: 70px 55px;
+    border-radius: 50px;
+    background: #959391;
+    margin-bottom: 20px;
+    height: 650px;
+    /* width:500px */
+    width: 325px;
+    
+
+    
+}
+#services .box img{ 
+    height: 460px;   
+    margin: auto;
+    display: block;
+    border-radius: 30px;
+    /* width: fit-content; */
+    width: 300px;
+ }
